@@ -5,7 +5,7 @@ type Props = {
   title: string
 }
 
-export default function Home({ title = "Boilerplate " }:Props) {
+export default function Home({ title = 'Boilerplate' }: Props) {
   return (
     <div className={styles.container}>
       <Head>
@@ -16,12 +16,9 @@ export default function Home({ title = "Boilerplate " }:Props) {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org"> { title }Next.js!</a>
-          </h1>
-
+          Welcome to <a href="https://nextjs.org"> {title}Next.js!</a>
+        </h1>
       </main>
-
-
     </div>
   )
 }
